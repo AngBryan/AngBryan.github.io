@@ -1,0 +1,226 @@
+<html>
+
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.welcome {
+  background: #336633;
+  color: #ddedd2;
+  text-align: center;
+  padding: 1px;
+  font-size: 36px;
+}
+
+
+.leftcolumn {   
+  float: left;
+  width: 18%;
+ margin-top: 20px;
+  color: #336633;
+  background-color: #ddedd2;
+padding-left: 20px
+ 
+ }
+
+.rightcolumn {
+  float: left;
+  width: 82%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+
+.img {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.filter-green {
+filter: invert(34%) sepia(30%) saturate(741%) hue-rotate(71deg) brightness(92%) contrast(92%); 
+}
+
+.container /* Grey part */ {
+  width: 90%; 
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; 
+  padding:10px;
+  color: white; 
+}
+
+.html {width: 15%; background-color: #336633;} /* length of the bar */
+.office {width: 65%; background-color: #336633;} 
+.lua {width: 50%; background-color: #336633;} 
+.linux {width: 20%; background-color: #336633;} 
+
+ul {
+  list-style-type: circle;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<body>
+  <div class="welcome">
+    <h1>Bryan Ang</h1>
+  </div>
+  
+  
+  <div class="leftcolumn">
+      <h2>About Me</h2>
+      <p style="color:black"> I am a J2 student currently studying PCME in Nanyang Junior College. I hope I can make a difference and contribute meaningfully to the tech scene!</p>
+ <br />
+     <h2>Contact</h2>
+     <svg viewBox="0 0 512 512" width="20" title="envelope" background-color: #ddedd2 >
+  <path  d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z" />
+</svg> <a href="mailto:angbryan@protonmail.com" style="color: black; ">AngBryan@protonmail.com</a></p>
+   <br />
+  <h2> <svg viewBox="0 0 512 512" width="20" title="bug" >
+  <path class="filter-green" d="M511.988 288.9c-.478 17.43-15.217 31.1-32.653 31.1H424v16c0 21.864-4.882 42.584-13.6 61.145l60.228 60.228c12.496 12.497 12.496 32.758 0 45.255-12.498 12.497-32.759 12.496-45.256 0l-54.736-54.736C345.886 467.965 314.351 480 280 480V236c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v244c-34.351 0-65.886-12.035-90.636-32.108l-54.736 54.736c-12.498 12.497-32.759 12.496-45.256 0-12.496-12.497-12.496-32.758 0-45.255l60.228-60.228C92.882 378.584 88 357.864 88 336v-16H32.666C15.23 320 .491 306.33.013 288.9-.484 270.816 14.028 256 32 256h56v-58.745l-46.628-46.628c-12.496-12.497-12.496-32.758 0-45.255 12.498-12.497 32.758-12.497 45.256 0L141.255 160h229.489l54.627-54.627c12.498-12.497 32.758-12.497 45.256 0 12.496 12.497 12.496 32.758 0 45.255L424 197.255V256h56c17.972 0 32.484 14.816 31.988 32.9zM257 0c-61.856 0-112 50.144-112 112h224C369 50.144 318.856 0 257 0z" /> 
+</svg> Skills </h2> 
+<ul>
+  <li>
+    <p style="color:black">HTML/CSS</p>
+    <div class="container">
+    <div class="skills html">5%</div>
+    </div>
+    <p style="color:black; font-style: italic; font-size: 12px" >Just started XD</p>
+  </li>
+  
+    <li>
+    <p style="color:black">Linux</p>
+    <div class="container">
+    <div class="skills linux">10%</div>
+    </div>
+    <p style="color:black; font-style: italic; font-size: 12px" >Basic</p>
+  </li>
+  
+  <li>
+    <p style="color:black">Lua</p>
+    <div class="container">
+    <div class="skills lua">40%</div>
+    </div>
+    <p style="color:black; font-style: italic; font-size: 12px" >Decent</p>
+  </li>
+  
+ 
+  
+   <li>
+    <p style="color:black">Microsoft Office Suite</p>
+    <div class="container">
+    <div class="skills office">55%</div>
+    </div>
+    <p style="color:black; font-style: italic; font-size: 12px" >Intermediate</p>
+  </li>
+  
+     <li>
+    <p style="color:black">Video Editing - FCP</p>
+    <div class="container">
+    <div class="skills office">55%</div>
+    </div>
+    <p style="color:black; font-style: italic; font-size: 12px" >Intermediate</p>
+  </li>
+  
+  </ul>
+ </div>
+  
+ <div class="rightcolumn">
+    <div class="card">
+      <h2>Thoughts on Self exploration and more about myself</h2>
+      <h5>29 April 2022</h5>
+
+      <p>From a very young age, I always believe in the notion of "self exploration". I remembered in primary school, I would try to mimick the style of the powerpoint slides that my teachers used in school when I got home or finding the source of where the cool game slideshow my teacher have taken it from. Even in my then CCA - Robotics, I was never really satisfied with just learning how to make the robot walk along the black line. I always craved for more and the only way to satisfy it is through searching online. At that time we were using Lego NXT and though I did not have the Lego pieces at home, I would just download the programming software and mess around with it to see what all the "blocks" do.  </p>
+
+<p>This idea of self exploration have carried over even in my secondary school years. This time I joined another CCA - Infocomm. Maybe I had too high expectations but I was once again dissatisfied with the instructors constantly covering the basics. This led to me discovering "Roblox" in my own free time (which is certainly a step up from scratch or other "drag or drop" programs). Google was my best friend throughout as I constantly had to read the wiki to learn about new functions or even just pasting the error codes and hope that StackOverflow has a solution. I got so invested to the point where I started exploring about exploitation and how we can easily effect changes and exploit vulnerabilities in the game through "client-side script executioners" (though client-side, there are ways to exploit a whole server!). </p>
+
+
+<p> Now in JC I joined a cca close to tech but slightly different from what I have been doing - Channel News Nanyang (CNNY) /Filmmaking. Yes it is completely different from my past 2 ccas but the main reason was really due to the fact that I am tired of hoping to learn something new from someone when I can do the learning myself. This led to me learning the basics of Linux from Cisco Networking Academy as well as some basics of javascript from freecodecamp during the holidays. </p>
+      
+ <p>     Even this website was created through my own self exploration! </p>
+    </div>
+   
+     <div class="card">
+      <h2>Favourite Tech Youtubers</h2>
+      <h5>29 April 2022</h5>
+          <p>I apologise for the poor quality, but here are some of the tech youtubers I watch!</p>
+      <img src="https://i.ibb.co/HBGkyPd/favourite.png" alt="favourite" border="0" class="img">
+      
+   
+  
+    </div>
+   
+    <div class="card">
+      <h2>Achievements in Junior College</h2>
+      <h5>2021-2022</h5>
+      <div><strong>Competitions</strong></div>
+<ol>
+<li>
+<div>SG75 Video competition 2021- Participation</div>
+</li>
+<li>
+<div>CLASS Copyright School Challenge 2021 - Participation</div>
+</li>
+</ol>
+<div><strong>Projects done</strong></div>
+<ol>
+<li>
+<div>2021 NYJC Sports Carnival (<a href="https://www.youtube.com/watch?v=-cbmcftdvzM" rev="en_rl_none">https://www.youtube.com/watch?v=-cbmcftdvzM</a>)</div>
+</li>
+<li>
+<div>Unveiling of the 中正人 Sculpture (<a href="https://www.youtube.com/watch?v=bYhXNMuHYI4" rev="en_rl_none">https://www.youtube.com/watch?v=bYhXNMuHYI4</a>)</div>
+</li>
+<li>
+<div>Release of 2022 Alevel results (<a href="https://www.youtube.com/watch?v=-f-Djr3PMbY" rev="en_rl_none">https://www.youtube.com/watch?v=-f-Djr3PMbY</a>)</div>
+</li>
+</ol>
+    </div>
+   
+    <div class="card">
+      <h2>Achievements in Secondary School</h2>
+      <h5>2017-2020</h5>
+      <p>2018:	Hua Xia Cup (Silver)</p>
+      <p>2018:	Singapore Games Creation Competition (Top 10 finalist)</p>
+       <p>2019: POSB [i.code] (Merit)</p>
+       <p>2019	Build on, Singapore (Finalist)</p>
+    </div>
+  </div>
+  
+  
+  
+  
+</div>
+</body>
+</html>
